@@ -4,7 +4,6 @@
 
   vars:
     docker_id: cdm5212@naver.com
-    docker_key: "{{ lookup('key', 'DOCKER_KEY') }}"
     container_name: myweb
     image_name: "{{ docker_id }}/goorm"
 
